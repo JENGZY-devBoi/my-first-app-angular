@@ -1,0 +1,36 @@
+/* HeroesComponent's private CSS styles */
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 980px;
+    margin: 20px auto;
+}
+
+.heroes {
+    list-style: none;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 20px;
+}
+
+.heroes button {
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+
+    width: 40%;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffc744;
+    font-size: 18px;
+}
+
+.heroes .bage {
+    background-color: #42c3fb;
+    padding: 10px;
+    border-radius: 8px 0 0 8px;
+}
